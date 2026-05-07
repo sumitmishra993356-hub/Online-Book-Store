@@ -12,7 +12,7 @@ Shopiko is a full-stack bookstore web application where users can browse books, 
 
 * Next.js
 * React
-* CSS / Tailwind (if used)
+* CSS / Tailwind
 
 ### Backend:
 
