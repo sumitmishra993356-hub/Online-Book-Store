@@ -1,80 +1,126 @@
-# 📚 Shopiko - Book Store App
+# 📚 Online Book Store (Full Stack)
 
-## 🚀 About the Project
+A modern full-stack **Online Book Store** web application where users can browse, purchase, and manage books, while admins can control inventory, orders, and users.
 
-Shopiko is a full-stack bookstore web application where users can browse books, add them to cart, and place orders.
+---
+
+## 🚀 Live Demo
+
+* 🌐 Frontend: *Coming Soon*
+* 🔗 Backend API: *Coming Soon*
+
+---
+
+## 🧠 Project Overview
+
+This project is built to simulate a real-world e-commerce platform for books. It includes:
+
+* User authentication & authorization
+* Book browsing and detailed view
+* Cart & order management
+* Admin dashboard for managing users, books, and orders
+* Fully responsive UI
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Frontend:
+### Frontend
 
-* Next.js
-* React
-* CSS / Tailwind
+* Next.js (App Router)
+* TypeScript
+* Tailwind CSS
+* Axios
 
-### Backend:
+### Backend
 
 * Node.js
-* Express.js
-* MongoDB
+* NestJS
+* Express
+* REST API
 
----
+### Database
 
-## ✨ Features
+* PostgreSQL
 
-* User authentication (signup/login)
-* Browse books
-* Add to cart
-* Favorite books
-* Place orders
+### Other Tools
+
+* Git & GitHub
+* Playwright (for scraping)
+* Crawlee
 
 ---
 
 ## 📂 Project Structure
 
 ```
-Shopiko/
-│── backend/
-│── frontend/my-app/
+ONLINE-BOOK-STORE/
+│
+├── frontend/        # Next.js frontend
+├── backend/         # API & server
+├── README.md
 ```
 
 ---
 
-## ⚙️ Installation
+## ✨ Features
 
-### 1. Clone the repo
+### 👤 User Features
 
+* Register & Login
+* Browse books
+* View book details
+* Add to cart
+* Place orders
+* View profile & order history
+
+### 🛠️ Admin Features
+
+* Manage books (CRUD)
+* Manage users
+* Manage orders
+* Approve/Reject returns
+* Track order status
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Online-Book-Store.git
+cd Online-Book-Store
 ```
-git clone https://github.com/your-username/shopiko.git
-cd shopiko
-```
 
-### 2. Install backend
+---
 
-```
+### 2️⃣ Setup Backend
+
+```bash
 cd backend
 npm install
-npm start
+npm run start
 ```
 
-### 3. Install frontend
+---
 
-```
-cd frontend/my-app
+### 3️⃣ Setup Frontend
+
+```bash
+cd frontend
 npm install
 npm run dev
 ```
 
 ---
 
-## 🌐 Environment Variables
+### 4️⃣ Environment Variables
 
-Create a `.env` file in backend and add:
+Create `.env` file in backend:
 
 ```
-MONGO_URI=your_mongodb_url
+DATABASE_URL=your_postgresql_url
 JWT_SECRET=your_secret_key
 ```
 
@@ -82,17 +128,35 @@ JWT_SECRET=your_secret_key
 
 ## 📸 Screenshots
 
-(Add screenshots here later)
+> Add screenshots here (very important for portfolio)
+
+---
+
+## 📈 Future Improvements
+
+* Payment Gateway Integration (Stripe/Razorpay)
+* Wishlist feature
+* Ratings & Reviews
+* Advanced search & filters
+* Docker deployment
 
 ---
 
 ## 🤝 Contributing
 
-Pull requests are welcome. For major changes, please open an issue first.
+Contributions are welcome! Feel free to fork this repo and submit a PR.
 
 ---
 
-## 📄 License
+## 📬 Contact
 
-This project is open-source.
+**Sumit Mishra**
 
+* GitHub: https://github.com/sumitmishra993356-hub
+* LinkedIn: *Add your LinkedIn link*
+
+---
+
+## ⭐ If you like this project
+
+Give it a **star ⭐ on GitHub** — it helps a lot!
